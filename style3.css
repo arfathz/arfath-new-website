@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    background-image: url(/images/image3.jpg);
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}.meno{
+    font-family: sans-serif;
+    font-weight: 500;
+    color: whitesmoke;
+    margin-left: 420px;
+    margin-top: 300px;
+}.meno
+{
+    outline: 0;
+}
+.meno:valid{
+    border-color:lightgreen;
+}
+.meno:focus:invalid{
+    border-color:red;
+}
+#colorButton {
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 50px;
+    margin-top: 40px;
+    margin-left: 90px;
+}
+  
